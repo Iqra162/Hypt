@@ -7,11 +7,11 @@ object CoreModules {
 
 object FeatureModules {
     const val authUI = ":hyptModules:auth:ui"
-    const val commonUI = ":feature:commonui"
-    const val navigation = ":feature:navigation"
-    const val homeUI = ":feature:home:ui"
-    const val ProfileUI = ":feature:profile:ui"
-    const val TeamUI = ":feature:teams:ui"
+    const val mainUI = ":hyptModules:main:ui"
+    const val navigation = ":hyptModules:navigation"
+    const val homeUI = ":hyptModules:home:ui"
+    const val ProfileUI = ":hyptModules:profile:ui"
+    const val TeamUI = ":hyptModules:teams:ui"
 }
 
 object ExternalLibraries {

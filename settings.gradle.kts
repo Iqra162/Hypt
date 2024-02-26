@@ -16,5 +16,8 @@ dependencyResolutionManagement {
 rootProject.name = "Hypt-Android"
 include(":app-hypt")
 include(":hyptModules:auth:ui")
-include(":hyptModules:navigation")
 include(":hyptModules:main:ui")
+include(":hyptModules:home:ui")
+include(":hyptModules:profile:ui")
+include(":hyptModules:navigation")
+include(":hyptModules:teams:ui")
