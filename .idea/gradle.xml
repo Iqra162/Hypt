@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -24,9 +25,15 @@
             <option value="$PROJECT_DIR$/hyptModules" />
             <option value="$PROJECT_DIR$/hyptModules/auth" />
             <option value="$PROJECT_DIR$/hyptModules/auth/ui" />
+            <option value="$PROJECT_DIR$/hyptModules/home" />
+            <option value="$PROJECT_DIR$/hyptModules/home/ui" />
             <option value="$PROJECT_DIR$/hyptModules/main" />
             <option value="$PROJECT_DIR$/hyptModules/main/ui" />
             <option value="$PROJECT_DIR$/hyptModules/navigation" />
+            <option value="$PROJECT_DIR$/hyptModules/profile" />
+            <option value="$PROJECT_DIR$/hyptModules/profile/ui" />
+            <option value="$PROJECT_DIR$/hyptModules/teams" />
+            <option value="$PROJECT_DIR$/hyptModules/teams/ui" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
