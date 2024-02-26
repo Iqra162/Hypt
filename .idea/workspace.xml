@@ -5,6 +5,16 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/hyptModules/auth/ui/src/main/res/layout/activity_auth.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/hyptModules/auth/ui/src/main/res/layout/fragment_login.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/hyptModules/auth/ui/src/main/res/navigation/nav_auth.xml">
         <config>
           <theme>@android:style/Theme.Material.Light</theme>
@@ -15,17 +25,32 @@
           <theme>@android:style/Theme.Material.Light</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/hyptModules/home/ui/src/main/res/layout/fragment_home_data.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/hyptModules/home/ui/src/main/res/navigation/home_flow.xml">
         <config>
           <theme>@android:style/Theme.Material.Light</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/hyptModules/main/ui/src/main/res/navigation/base_flow.xml">
+      <layout url="file://$PROJECT_DIR$/hyptModules/main/ui/src/main/res/layout/activity_main.xml">
         <config>
           <theme>@android:style/Theme.Material.Light</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/hyptModules/main/ui/src/main/res/navigation/nav_main.xml">
+      <layout url="file://$PROJECT_DIR$/hyptModules/main/ui/src/main/res/layout/fragment_start.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/hyptModules/main/ui/src/main/res/menu/bottom_nav_menu.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/hyptModules/main/ui/src/main/res/navigation/base_flow.xml">
         <config>
           <theme>@android:style/Theme.Material.Light</theme>
         </config>
@@ -45,11 +70,6 @@
           <theme>@android:style/Theme.Material.Light</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/hyptModules/navigation/src/main/res/navigation/nav_auth.xml">
-        <config>
-          <theme>@android:style/Theme.Material.Light</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/hyptModules/navigation/src/main/res/navigation/profile_flow.xml">
         <config>
           <theme>@android:style/Theme.Material.Light</theme>
@@ -61,11 +81,6 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/hyptModules/profile/ui/src/main/res/layout/fragment_profile.xml">
-        <config>
-          <theme>@android:style/Theme.Material.Light</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/hyptModules/profile/ui/src/main/res/navigation/nav_profile.xml">
         <config>
           <theme>@android:style/Theme.Material.Light</theme>
         </config>
@@ -91,7 +106,518 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91ae4e0f-b1dd-40ff-ba0a-88f7fed4cfbf" name="Changes" comment="" />
+    <list default="true" id="91ae4e0f-b1dd-40ff-ba0a-88f7fed4cfbf" name="Changes" comment="Multi Modular Architecture with navigation completed">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/generated/data_binding_base_class_source_out/debug/out/com/hypt/app/databinding/ActivityMainBinding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/apk/debug/app-hypt-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/apk/debug/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/apk_ide_redirect_file/debug/redirect.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.hypt.app-binding_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.hypt.app-binding_classes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/data_binding_layout_info_type_merge/debug/out/activity_main-layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/data_binding_layout_info_type_package/debug/out/activity_main-layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_1/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_2/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_3/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/desugar_graph/debug/out/currentProject/jar_7f85665a3fb0ce5f7e926e3138eb5352cb4080577afa3a152686994214feb079_bucket_0/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/desugar_graph/debug/out/currentProject/jar_7f85665a3fb0ce5f7e926e3138eb5352cb4080577afa3a152686994214feb079_bucket_1/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/desugar_graph/debug/out/currentProject/jar_7f85665a3fb0ce5f7e926e3138eb5352cb4080577afa3a152686994214feb079_bucket_2/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/desugar_graph/debug/out/currentProject/jar_7f85665a3fb0ce5f7e926e3138eb5352cb4080577afa3a152686994214feb079_bucket_3/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex/debug/mergeLibDexDebug/1/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex/debug/mergeLibDexDebug/12/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex/debug/mergeLibDexDebug/13/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex/debug/mergeLibDexDebug/15/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex/debug/mergeLibDexDebug/2/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex/debug/mergeLibDexDebug/3/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex/debug/mergeLibDexDebug/4/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex/debug/mergeLibDexDebug/6/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex/debug/mergeLibDexDebug/7/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/dex_number_of_buckets_file/debug/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+H5DdtE50sNG0d2E1vZUYhmv4x8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+M04BCTiWK_V3Vch5S3m7txQ+2U=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+y4crdMbQ_14eSA+tmPbpgW89o0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+yvfFHWP6AwTYuFNbX_oR1iHKBo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/0h7lD7xATxdAsfi3+cGXfs_160M=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/1MMwPpsr6zXfwS_BQfUHs_7XOXQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/1m8nGYJRiSMD+Au7DB7wZ3L8Zkg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4nBixaN3YW+fMoJbBa4ktQ6NBEg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5LQWp6zDPz_IlOl1hcecnVp1UEY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/71QEqFS+yrn2GbGRVAAVasEC7HE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8AA7F5QAIPxkm9Aqx0W5tlNe8eM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8iHbB7LMlr0jmy9hE3hdG5bK41Q=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8tHkinf5AYjNRp2rkWvpQDQNA50=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9D2pPunvBEzojQ6TN96LgHFBbRg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9UiMf4f5NTYzSQmx7V0QgPecMV0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9s9lun_ZQIG2Xm2EapJhekeB9P8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CKTLHIWE1ayttKrTNR7PtIn92XU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CNbocSClZRW8m+dBb0P8N6U7vnY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FWdL1aX5VcaLLWVK5NWXCS7_yS8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/GhYDuzaQJFJqwJC0Ot+P7DqxXEw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/IjOEMB9PacqXGkda8Is8bh7N8hU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/J+WjVm9EC4FhzTIjosDVPfe0nkI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JiNy9mP_x1s8ooNZuu5xwDIUvTk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JvOSzayvC85IKU3zdKPY9+tJ2Fs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LH8orK5ExmbcoSmcUc5+6YPEmtY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/M6xzrtiub1+_Vu1XCpfPH_Dqh5M=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MVjdh8kcnNoHrETEK2jsRwnW2+U=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Nsdl4r9WFfNMiwZtggze9eKlxG4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PsdY4x_EBg6KWSdAEJ1Fr_JNAX4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q4IgtKyF_8skl7_344PYQcCjrKk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/TNTshgfFr2nyKaScqF0fZom3L+k=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/UNoDfUe_SEkxAdDgWjVrhbfc57U=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VMqgH0fx4GMGtM4z3tJCJTSCi_U=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WhjHoB7GbETVJv25OIfzOBAJC70=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/XPyjfWp9HFwAUIakdnZyqiXXHOc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Y5yPtscwmqEYuYAHq_odzI23zwk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/YmdVV0DVWwav1mW7MBj_KhSplv0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/YyOPlfsuUdE3VUZHPbYlI11LHRw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Z1_7FYHMFLDse13jNGd+qHuZzv0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZB+94Mhbjmb9xzCoMNxtvQ9O8jM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_NVU3cM6cWs0i5dH3SMqTWVNFeI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bSpjA0oL2BjkzaRG2+P21+otNIA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bgOGXUljnhumvl7AJMNIT4uvcPc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/c7vGgHzNqL1xOGDmLnwr5EKRuCo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dH5Ty+haf1vOfALIOWjbaO2zZbo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dL4kKQS4I1UF5PkPrgUr_1ei2Go=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/eERSOnK+S9MS+KEcIuQuNWs7b0Q=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fshQQbPtbUZKRNtynfcy587cuj4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gJuGPV0BokxpyDyLoLnfySARaOM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gTRpVeUmo_GKqKS3X38QK_hpA1I=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iqVMX0LX5MJuJnkTYXj34ZGN2vE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jePpZE9fsFDqwzZhkeOHQLg4jdY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kodHhsS4tU2xK4isUjKuGnOXky8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/li_Znm4z90nUa_AM739zvL0d5eo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/m2Sx4Jizq6wvG8aBFLI5eUylE9o=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mlHq4STaj+NWQGy0mSfRNsAtg6Q=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mvW2LiIoChA4nNO4jfZd_4SkUXE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/n0NF4OSF82kmEMcBm0QFY7Bdf9A=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nsiNytf7INuz2p6Ss4CEXyIAMrY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/oDn8OnFsrz3A1Nhf1qUKV6r4XBI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/r0Nup1jQk+3fvmgl8MqrxE_H9Z4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rMTkpmx_G1J5bq6+XhEHMS2FLGE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rtwFnTLaO4yjYitv0ia0SP7yXt8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/sjpL4uDNyMcYtmf_xXl1WUSZllI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tabw3lP3xCSMAG40NZ4wFs2yxCw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tdIIF3j_QZ5tZ18+eIAiYc4Esac=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uA+9j8XhkyoAyGQAfk_ka0jVag0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uXz40cV_8BRFC2Ah6TZ0ht8+K_w=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/v6LE2k9+jkP+DKEUNm0BcFgkoYw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vO9TUZgxKLH2ciQfCzP7Gvtynxc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wMTy1MwqVPFM4JPT+m6Uu_IEs88=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wuAmS5MVSc8M7obuRVefcRcI9ZE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yID+kn3LCOIKaXQCFzqLloCWfek=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yjQe45ebeTILgggMgWn07yXuXJ0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/zIpLviHZ746Qrv6JTJur5FDCano=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/java_res/debug/out/META-INF/app-hypt_debug.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/javac/debug/classes/com/hypt/app/databinding/ActivityMainBinding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_java_res/debug/base.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res/debug/layout_activity_main.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-as.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-as.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-az.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-az.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+es+419.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+es+419.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+sr+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+sr+Latn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-be.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bn.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bs.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-cs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-el.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rAU.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rAU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rGB.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rXC.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rXC.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es-rUS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-et.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-et.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-eu.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-eu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gu.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h320dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h320dp-port-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h360dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h360dp-land-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h480dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h480dp-land-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h550dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h550dp-port-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h720dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h720dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hy.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-is.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-is.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-it.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-iw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ka.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ka.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kk.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-km.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-km.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kn.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ky.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ky.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-land.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-land.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-large-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-large-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldltr-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldltr-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldrtl-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldrtl-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lo.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mk.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ml.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mn.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mr.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ms.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ms.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-my.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-my.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ne.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-night-v8.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-night-v8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-or.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-or.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pa.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-port.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-port.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rBR.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rBR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rPT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ro.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-si.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-si.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-small-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-small-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sq.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sq.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw600dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw600dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ta.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-te.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-te.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-th.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ur.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uz.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v18.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v22.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v23.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v24.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v25.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v26.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v28.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v31.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v31.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v34.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v34.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-vi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w320dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w320dp-land-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w360dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w360dp-port-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w400dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w400dp-port-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w600dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w600dp-land-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v20.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-xlarge-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-xlarge-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rCN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rHK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rTW.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/packaged_res/debug/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/project_dex_archive/debug/out/6eca53a726463b70b86e6e0e4df507b8dc841325b9d58f7bea046ee2981787cc_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/project_dex_archive/debug/out/6eca53a726463b70b86e6e0e4df507b8dc841325b9d58f7bea046ee2981787cc_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/project_dex_archive/debug/out/6eca53a726463b70b86e6e0e4df507b8dc841325b9d58f7bea046ee2981787cc_2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/project_dex_archive/debug/out/6eca53a726463b70b86e6e0e4df507b8dc841325b9d58f7bea046ee2981787cc_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/project_dex_archive/debug/out/com/hypt/app/MainActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/project_dex_archive/debug/out/com/hypt/app/databinding/ActivityMainBinding.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/source_set_path_map/debug/file-map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/source_set_path_map/debug/file-map.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/outputs/apk/debug/app-hypt-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/outputs/apk/debug/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app-hypt/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/tmp/kotlin-classes/debug/META-INF/app-hypt_debug.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/build/tmp/kotlin-classes/debug/com/hypt/app/MainActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/src/main/java/com/hypt/app/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-hypt/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/buildSrcjar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/buildSrcjar-classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/local-state/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/.transforms/7218ee7a234e344f3ca41bd92b4e5668/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/.transforms/9222372e0e4578a4e94144bf2b4d4bbe/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/.transforms/9222372e0e4578a4e94144bf2b4d4bbe/transformed/debug/com/hypt/auth/ui/AuthActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/.transforms/9222372e0e4578a4e94144bf2b4d4bbe/transformed/debug/com/hypt/auth/ui/databinding/ActivityAuthBinding.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/.transforms/9222372e0e4578a4e94144bf2b4d4bbe/transformed/debug/com/hypt/auth/ui/databinding/FragmentLoginBinding.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/.transforms/9222372e0e4578a4e94144bf2b4d4bbe/transformed/debug/com/hypt/auth/ui/fragments/LoginFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/.transforms/9222372e0e4578a4e94144bf2b4d4bbe/transformed/debug/desugar_graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/generated/data_binding_base_class_source_out/debug/out/com/hypt/auth/ui/databinding/ActivityAuthBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/generated/data_binding_base_class_source_out/debug/out/com/hypt/auth/ui/databinding/ActivityAuthBinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/generated/data_binding_base_class_source_out/debug/out/com/hypt/auth/ui/databinding/FragmentLoginBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/generated/data_binding_base_class_source_out/debug/out/com/hypt/auth/ui/databinding/FragmentLoginBinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/aar_main_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/aar_main_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/compile_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/compile_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/compiled_local_resources/debug/out/layout_activity_auth.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/compiled_local_resources/debug/out/layout_activity_auth.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/compiled_local_resources/debug/out/layout_fragment_login.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/compiled_local_resources/debug/out/layout_fragment_login.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/compiled_local_resources/debug/out/navigation_nav_auth.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/compiled_local_resources/debug/out/navigation_nav_auth.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.hypt.auth.ui-binding_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.hypt.auth.ui-binding_classes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/data_binding_layout_info_type_package/debug/out/activity_auth-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/data_binding_layout_info_type_package/debug/out/activity_auth-layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/data_binding_layout_info_type_package/debug/out/fragment_login-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/data_binding_layout_info_type_package/debug/out/fragment_login-layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/activity_auth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/activity_auth.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/javac/debug/classes/com/hypt/auth/ui/databinding/ActivityAuthBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/javac/debug/classes/com/hypt/auth/ui/databinding/ActivityAuthBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/javac/debug/classes/com/hypt/auth/ui/databinding/FragmentLoginBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/javac/debug/classes/com/hypt/auth/ui/databinding/FragmentLoginBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/packaged_res/debug/layout/activity_auth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/packaged_res/debug/layout/activity_auth.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/packaged_res/debug/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/packaged_res/debug/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/runtime_library_classes_dir/debug/com/hypt/auth/ui/databinding/ActivityAuthBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/runtime_library_classes_dir/debug/com/hypt/auth/ui/databinding/ActivityAuthBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/runtime_library_classes_dir/debug/com/hypt/auth/ui/databinding/FragmentLoginBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/runtime_library_classes_dir/debug/com/hypt/auth/ui/databinding/FragmentLoginBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/runtime_library_classes_dir/debug/com/hypt/auth/ui/fragments/LoginFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/runtime_library_classes_dir/debug/com/hypt/auth/ui/fragments/LoginFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/kotlin/compileDebugKotlin/local-state/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/outputs/aar/ui-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/outputs/aar/ui-debug.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/build/tmp/kotlin-classes/debug/com/hypt/auth/ui/fragments/LoginFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/build/tmp/kotlin-classes/debug/com/hypt/auth/ui/fragments/LoginFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/src/main/java/com/hypt/auth/ui/fragments/LoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/src/main/java/com/hypt/auth/ui/fragments/LoginFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/src/main/res/layout/activity_auth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/src/main/res/layout/activity_auth.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/auth/ui/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/auth/ui/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/home/ui/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/home/ui/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/home/ui/src/main/java/com/hypt/home/ui/fragments/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/home/ui/src/main/java/com/hypt/home/ui/fragments/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/home/ui/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/home/ui/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/home/ui/src/main/res/navigation/home_flow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/home/ui/src/main/res/navigation/home_flow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/.transforms/714c28a14afb39eeaf4f555f1e3182e4/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/.transforms/714c28a14afb39eeaf4f555f1e3182e4/transformed/debug/com/hypt/main/ui/MainActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/.transforms/714c28a14afb39eeaf4f555f1e3182e4/transformed/debug/com/hypt/main/ui/databinding/ActivityMainBinding.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/.transforms/714c28a14afb39eeaf4f555f1e3182e4/transformed/debug/com/hypt/main/ui/databinding/FragmentStartBinding.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/.transforms/714c28a14afb39eeaf4f555f1e3182e4/transformed/debug/com/hypt/main/ui/fragments/StartFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/.transforms/714c28a14afb39eeaf4f555f1e3182e4/transformed/debug/desugar_graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/.transforms/8d320e96a39d287140f111c56a0d736e/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/generated/data_binding_base_class_source_out/debug/out/com/hypt/main/ui/databinding/ActivityMainBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/generated/data_binding_base_class_source_out/debug/out/com/hypt/main/ui/databinding/ActivityMainBinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/aar_main_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/aar_main_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/compile_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/compile_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/compiled_local_resources/debug/out/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/compiled_local_resources/debug/out/layout_activity_main.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/compiled_local_resources/debug/out/layout_fragment_start.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/compiled_local_resources/debug/out/layout_fragment_start.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/compiled_local_resources/debug/out/navigation_base_flow.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/compiled_local_resources/debug/out/navigation_base_flow.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/data_binding_layout_info_type_package/debug/out/activity_main-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/data_binding_layout_info_type_package/debug/out/activity_main-layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/fragment_start.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/fragment_start.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/javac/debug/classes/com/hypt/main/ui/databinding/ActivityMainBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/javac/debug/classes/com/hypt/main/ui/databinding/ActivityMainBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/packaged_res/debug/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/packaged_res/debug/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/packaged_res/debug/layout/fragment_start.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/packaged_res/debug/layout/fragment_start.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/packaged_res/debug/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/runtime_library_classes_dir/debug/com/hypt/main/ui/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/runtime_library_classes_dir/debug/com/hypt/main/ui/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/runtime_library_classes_dir/debug/com/hypt/main/ui/databinding/ActivityMainBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/runtime_library_classes_dir/debug/com/hypt/main/ui/databinding/ActivityMainBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/runtime_library_classes_dir/debug/com/hypt/main/ui/fragments/StartFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/runtime_library_classes_dir/debug/com/hypt/main/ui/fragments/StartFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/kotlin/compileDebugKotlin/local-state/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/outputs/aar/ui-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/outputs/aar/ui-debug.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/tmp/kotlin-classes/debug/com/hypt/main/ui/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/tmp/kotlin-classes/debug/com/hypt/main/ui/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/build/tmp/kotlin-classes/debug/com/hypt/main/ui/fragments/StartFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/build/tmp/kotlin-classes/debug/com/hypt/main/ui/fragments/StartFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/src/main/java/com/hypt/main/ui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/src/main/java/com/hypt/main/ui/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/src/main/java/com/hypt/main/ui/fragments/StartFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/src/main/java/com/hypt/main/ui/fragments/StartFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/src/main/res/layout/fragment_start.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/src/main/res/layout/fragment_start.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/main/ui/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/main/ui/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/navigation/src/main/res/navigation/main_nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/navigation/src/main/res/navigation/main_nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/navigation/src/main/res/navigation/nav_auth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/profile/ui/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/profile/ui/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/profile/ui/src/main/java/com/hypt/profile/ui/ProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/profile/ui/src/main/java/com/hypt/profile/ui/ProfileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/profile/ui/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/profile/ui/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/teams/ui/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/teams/ui/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/teams/ui/src/main/java/com/hypt/teams/ui/TeamsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/teams/ui/src/main/java/com/hypt/teams/ui/TeamsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyptModules/teams/ui/src/main/res/layout/fragment_team.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hyptModules/teams/ui/src/main/res/layout/fragment_team.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +626,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R9PT300LM5N]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[e64bd00d]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -110,8 +636,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="navigationResourceFile" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2ctGqriOcO5tlfhsWQ2CQagSfYX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -121,23 +654,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/fmfb/Android_Studio_Projects/Hypt/hyptModules/navigation/src/main/java/com/hypt/navigation",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/iqra/AndroidStudioProjects/HyptAndroid/hyptModules/main/ui/src/main/res/drawable&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hyptModules/main/ui/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/hyptModules/main/ui/src/main/res/values" />
       <recent name="$PROJECT_DIR$/hyptModules/navigation/src/main/java/com/hypt/navigation" />
       <recent name="$PROJECT_DIR$/hyptModules/navigation/src/main/res/navigation" />
       <recent name="$PROJECT_DIR$/hyptModules/navigation/src/main/res/values" />

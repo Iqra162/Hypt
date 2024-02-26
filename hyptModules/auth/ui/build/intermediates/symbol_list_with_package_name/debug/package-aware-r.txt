@@ -1,6 +1,9 @@
 com.hypt.auth.ui
+id btn_login
+id fragmentContainerView
 id loginFragment
 id nav_auth
+id textView
 layout activity_auth
 layout fragment_login
 navigation nav_auth

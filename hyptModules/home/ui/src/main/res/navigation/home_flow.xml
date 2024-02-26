@@ -9,5 +9,13 @@
         android:id="@+id/homeFragment"
         android:name="com.hypt.home.ui.fragments.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_homeDataFragment"
+            app:destination="@id/homeDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeDataFragment"
+        android:name="com.hypt.home.ui.fragments.HomeDataFragment"
+        android:label="HomeDataFragment" />
 </navigation>

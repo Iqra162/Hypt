@@ -28,10 +28,6 @@
         "source": "com.hypt.app.app-hypt-main-49:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.hypt.app.app-hypt-merged_res-47:/layout_activity_main.xml.flat",
-        "source": "com.hypt.app.app-hypt-main-49:/layout/activity_main.xml"
-    },
-    {
         "merged": "com.hypt.app.app-hypt-merged_res-47:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "com.hypt.app.app-hypt-main-49:/mipmap-xxhdpi/ic_launcher_round.webp"
     },

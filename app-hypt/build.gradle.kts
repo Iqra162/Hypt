@@ -42,7 +42,6 @@ dependencies {
     implementation(project("path" to FeatureModules.authUI))
     implementation(project("path" to FeatureModules.navigation))
     implementation(project("path" to FeatureModules.mainUI))
-    implementation(project("path" to FeatureModules.authUI))
     implementation(project("path" to FeatureModules.homeUI))
     implementation(project("path" to FeatureModules.TeamUI))
     implementation(project("path" to FeatureModules.ProfileUI))

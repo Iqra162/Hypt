@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.hypt.teams.ui.databinding.FragmentTeamBinding
 
 
-class TeamsFragment : Fragment() {
+class TeamsFragment : Fragment(R.layout.fragment_team) {
     lateinit var binding: FragmentTeamBinding
 
 

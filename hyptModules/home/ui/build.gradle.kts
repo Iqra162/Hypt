@@ -1,6 +1,8 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("androidx.navigation.safeargs")
+
 }
 
 android {
@@ -34,6 +36,7 @@ android {
 
 dependencies {
 
+    implementation(project("path" to FeatureModules.navigation))
 
     implementation(Deps.core)
     implementation(Deps.appCompat)

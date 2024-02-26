@@ -38,6 +38,7 @@ android {
 
 dependencies {
 
+    implementation(project("path" to FeatureModules.mainUI))
 
     implementation(Deps.core)
     implementation(Deps.appCompat)

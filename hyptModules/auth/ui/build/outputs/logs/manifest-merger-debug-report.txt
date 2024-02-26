@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/fmfb/Android_Studio_Projects/Hypt/hyptModules/auth/ui/src/main/AndroidManifest.xml:2:1-6:12
-INJECTED from /Users/fmfb/Android_Studio_Projects/Hypt/hyptModules/auth/ui/src/main/AndroidManifest.xml:2:1-6:12
+ADDED from /Users/iqra/AndroidStudioProjects/HyptAndroid/hyptModules/auth/ui/src/main/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/iqra/AndroidStudioProjects/HyptAndroid/hyptModules/auth/ui/src/main/AndroidManifest.xml:2:1-6:12
 	package
-		INJECTED from /Users/fmfb/Android_Studio_Projects/Hypt/hyptModules/auth/ui/src/main/AndroidManifest.xml
+		INJECTED from /Users/iqra/AndroidStudioProjects/HyptAndroid/hyptModules/auth/ui/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/fmfb/Android_Studio_Projects/Hypt/hyptModules/auth/ui/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/iqra/AndroidStudioProjects/HyptAndroid/hyptModules/auth/ui/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
-INJECTED from /Users/fmfb/Android_Studio_Projects/Hypt/hyptModules/auth/ui/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/fmfb/Android_Studio_Projects/Hypt/hyptModules/auth/ui/src/main/AndroidManifest.xml
-INJECTED from /Users/fmfb/Android_Studio_Projects/Hypt/hyptModules/auth/ui/src/main/AndroidManifest.xml
+INJECTED from /Users/iqra/AndroidStudioProjects/HyptAndroid/hyptModules/auth/ui/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/iqra/AndroidStudioProjects/HyptAndroid/hyptModules/auth/ui/src/main/AndroidManifest.xml
+INJECTED from /Users/iqra/AndroidStudioProjects/HyptAndroid/hyptModules/auth/ui/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/fmfb/Android_Studio_Projects/Hypt/hyptModules/auth/ui/src/main/AndroidManifest.xml
+		INJECTED from /Users/iqra/AndroidStudioProjects/HyptAndroid/hyptModules/auth/ui/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/fmfb/Android_Studio_Projects/Hypt/hyptModules/auth/ui/src/main/AndroidManifest.xml
+		INJECTED from /Users/iqra/AndroidStudioProjects/HyptAndroid/hyptModules/auth/ui/src/main/AndroidManifest.xml

@@ -36,6 +36,7 @@ android {
 }
 
 dependencies {
+    implementation(project("path" to FeatureModules.navigation))
 
     implementation(Deps.core)
     implementation(Deps.appCompat)

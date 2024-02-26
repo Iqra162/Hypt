@@ -1,7 +1,10 @@
 R_DEF: Internal format may change without notice
 local
+id btn_login
+id fragmentContainerView
 id loginFragment
 id nav_auth
+id textView
 layout activity_auth
 layout fragment_login
 navigation nav_auth

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc/Hypt-Android.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc/Hypt-Android.buildSrc.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hyptModules/navigation/Hypt-Android.hyptModules.navigation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hyptModules/navigation/Hypt-Android.hyptModules.navigation.main.iml" />
     </modules>
   </component>
