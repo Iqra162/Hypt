@@ -1,0 +1,7 @@
+com.hypt.main.ui
+id base_flow
+id startFragment
+layout activity_main
+layout fragment_start
+navigation base_flow
+string hello_blank_fragment

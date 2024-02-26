@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@navigation/base_flow">
+    <include app:graph ="@navigation/base_flow"/>
+    <include app:graph ="@navigation/home_flow"/>
+    <include app:graph ="@navigation/profile_flow"/>
+    <include app:graph ="@navigation/teams_flow"/>
+    <action
+        android:id="@+id/action_global_home_flow"
+        app:destination="@+id/home_flow"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popUpTo="@id/main_nav_graph"/>
+    <action
+        android:id="@+id/action_global_profile_flow"
+        app:destination="@+id/profile_flow"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popUpTo="@id/main_nav_graph"/>
+        <action
+            android:id="@+id/action_global_teams_flow"
+            app:destination="@+id/teams_flow"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpTo="@id/main_nav_graph"/>
+    <action
+        android:id="@+id/action_global_base_flow"
+        app:destination="@+id/base_flow"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popUpTo="@id/main_nav_graph"/>
+
+
+</navigation>

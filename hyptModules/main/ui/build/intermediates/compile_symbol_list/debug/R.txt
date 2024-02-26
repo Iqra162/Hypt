@@ -1,0 +1,6 @@
+int id base_flow 0x0
+int id startFragment 0x0
+int layout activity_main 0x0
+int layout fragment_start 0x0
+int navigation base_flow 0x0
+int string hello_blank_fragment 0x0

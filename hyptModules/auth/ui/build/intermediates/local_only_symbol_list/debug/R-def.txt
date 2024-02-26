@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+id loginFragment
+id nav_auth
+layout activity_auth
+layout fragment_login
+navigation nav_auth
+string hello_blank_fragment
