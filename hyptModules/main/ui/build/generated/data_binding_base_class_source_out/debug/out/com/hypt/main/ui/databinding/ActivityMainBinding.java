@@ -11,6 +11,7 @@ import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationView;
 import com.hypt.main.ui.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,16 +22,25 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final NavigationView drawerNavView;
+
+  @NonNull
   public final FragmentContainerView fragmentContainerView;
 
   @NonNull
   public final BottomNavigationView navView;
 
+  @NonNull
+  public final MainToolbarBinding toolbarLayout;
+
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView fragmentContainerView, @NonNull BottomNavigationView navView) {
+      @NonNull NavigationView drawerNavView, @NonNull FragmentContainerView fragmentContainerView,
+      @NonNull BottomNavigationView navView, @NonNull MainToolbarBinding toolbarLayout) {
     this.rootView = rootView;
+    this.drawerNavView = drawerNavView;
     this.fragmentContainerView = fragmentContainerView;
     this.navView = navView;
+    this.toolbarLayout = toolbarLayout;
   }
 
   @Override
@@ -60,6 +70,12 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.drawer_nav_view;
+      NavigationView drawerNavView = ViewBindings.findChildViewById(rootView, id);
+      if (drawerNavView == null) {
+        break missingId;
+      }
+
       id = R.id.fragmentContainerView;
       FragmentContainerView fragmentContainerView = ViewBindings.findChildViewById(rootView, id);
       if (fragmentContainerView == null) {
@@ -72,7 +88,15 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, fragmentContainerView, navView);
+      id = R.id.toolbar_layout;
+      View toolbarLayout = ViewBindings.findChildViewById(rootView, id);
+      if (toolbarLayout == null) {
+        break missingId;
+      }
+      MainToolbarBinding binding_toolbarLayout = MainToolbarBinding.bind(toolbarLayout);
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, drawerNavView,
+          fragmentContainerView, navView, binding_toolbarLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

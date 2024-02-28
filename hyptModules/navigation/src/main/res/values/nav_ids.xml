@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="home_flow" type="id" />
+    <item name="events_flow" type="id" />
+    <item name="search_flow" type="id" />
+    <item name="news_flow" type="id" />
     <item name="teams_flow" type="id" />
     <item name="profile_flow" type="id" />
     <item name="base_flow" type="id"/>
